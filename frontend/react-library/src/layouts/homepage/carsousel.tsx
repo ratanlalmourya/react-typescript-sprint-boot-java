@@ -1,3 +1,4 @@
+import { ReturnBooks } from "./returnbooks";
 
 export const Carousel = () => {
     return (
@@ -13,50 +14,23 @@ export const Carousel = () => {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <div className="row d-flex justify-content-center align-items-center  ">
-                            <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
-                                <div className="text-center">
-                                    <img src={require('../../Images/BooksImages/book-luv2code-1000.png')}
-                                        alt="book"
-                                        width='151'
-                                        height='200'>
-                                    </img>
-                                    <h6 className="mt-2">Book</h6>
-                                    <p>Luv2Code</p>
-                                    <a className="btn main-color text-white" href="#">Reserve</a>
-                                </div>
-                            </div>
+                           <ReturnBooks />
+                           <ReturnBooks />
+                           <ReturnBooks />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="row d-flex justify-content-center align-items-center  ">
-                            <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
-                                <div className="text-center">
-                                    <img src={require('../../Images/BooksImages/new-book-1.png')}
-                                        alt="book"
-                                        width='151'
-                                        height='200'>
-                                    </img>
-                                    <h6 className="mt-2">Book</h6>
-                                    <p>Luv2Code</p>
-                                    <a className="btn main-color text-white" href="#">Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBooks />
+                            <ReturnBooks />
+                            <ReturnBooks />
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="row d-flex justify-content-center align-items-center  ">
-                            <div className="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
-                                <div className="text-center">
-                                    <img src={require('../../Images/BooksImages/new-book-2.png')}
-                                        alt="book"
-                                        width='151'
-                                        height='200'>
-                                    </img>
-                                    <h6 className="mt-2">Book</h6>
-                                    <p>Luv2Code</p>
-                                    <a className="btn main-color text-white" href="#">Reserve</a>
-                                </div>
-                            </div>
+                            <ReturnBooks />
+                            <ReturnBooks />
+                            <ReturnBooks />
                         </div>
                     </div>
                 </div>
@@ -79,17 +53,7 @@ export const Carousel = () => {
 
             <div className="d-lg-none mt-3">
                 <div className="row d-flex justify-content-center align-items-center">
-                    <div className="text-center">
-                        <img src={require('../../Images/BooksImages/book-luv2code-1000.png')}
-                            alt="book"
-                            width='151'
-                            height='233'
-                        />
-                        <h6 className="mt-2">
-                            <b>Book</b>
-                        </h6>
-                        <a href="#" className="btn main-color text-white" >Reserve</a>
-                    </div>
+                    <ReturnBooks />
                 </div>
             </div>
             <div className="homepage-carousel-title mt-3">
